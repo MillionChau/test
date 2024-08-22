@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 1;
+    height: 250px;
+    background-image: linear-gradient(0, #10d4ee, #67ebe0);
+}
+
+.clear {
+    clear: both;
+}
+
+#navbar {
+    display: inline-flex;
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+#nav__logo {
+    width: 50%;
+    height: 1;
+}
+
+#nav__list {
+    width: 50%;
+    height: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_item {
+    font-size: 1.6rem;
+}
+
+.title1 {
+    font-size: 3.0rem;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.title2 {
+    font-size: 2.2rem;
+    color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p__introduce {
+    font-size: 1rem;
+}
+
+.select {
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-item button{
+    width: 80px;
+    height: 35px;
+}
+
+.select-item button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
